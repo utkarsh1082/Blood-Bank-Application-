@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="get_blood_group">Blood Group</string>
+    <string name="blood_banks">Blood Banks</string>
+    <string name="donors">Donors</string>
+    <string name="patients">Patients</string>
+    <string name="get_blood_bank">Get Blood Bank</string>
+    <string name="name">Name</string>
+    <string name="owner">Owner</string>
+    <string name="capacity">Capacity</string>
+    <string name="address">Address-</string>
+    <string name="add_blood_bank">Add Blood Bank</string>
+    <string name="house_no">House \n No.</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="street_locality">Street/Locality</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="submit">SUBMIT</string>
+    <string name="give_id">Give ID</string>
+    <string name="get_details">Get Details</string>
+    <string name="giveId">Give Id</string>
+    <string name="update">UPDATE</string>
+    <string name="update_blood_bank">Update Blood Bank</string>
+    <string name="add_donor">ADD DONOR</string>
+    <string name="update_donor_info">UPDATE DONOR INFO</string>
+    <string name="age">Age</string>
+    <string name="bloodgroup">BloodGroup</string>
+    <string name="bloodBank">Blood Bank</string>
+    <string name="get_donor">Get Donor</string>
+    <string name="donate_blood">DONATE BLOOD</string>
+    <string name="get_blood">Get Blood</string>
+    <string name="add_patient">ADD PATIENT</string>
+    <string name="illness_if_any">Illness(if any)</string>
+    <string name="get_patient">GET PATIENT</string>
+    <string name="any_medical_history">Any Medical History</string>
+    <string name="update_patient_info">UPDATE PATIENT INFO</string>
+    <string name="get_patient_info">GET PATIENT INFO</string>
+    <string name="get_donor_info1">GET DONOR INFO</string>
+    <string name="enter_blood_group">Enter Your Blood Group</string>
+    <string name="patient_id">Patient Id</string>
+    <string name="update_patient">Update Patient</string>
+    <string name="updatePatient">Update</string>
+    <string name="patient_id_text">Id</string>
+    <string name="donate_blood1">Donate Blood</string>
+    <string name="donor_id">DonorId</string>
+    <string name="quantity">Quantity</string>
+    <string name="bloodbankid">BloodBankId</string>
+    <string name="bloodgroup_info">BloodGroup Info</string>
+    <string name="blood_bank_name">Blood Bank Name</string>
+    <string name="select">Select</string>
+    <string name="show_blood_bank">Show Blood Bank</string>
+    <string-array name="bloodGroups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>

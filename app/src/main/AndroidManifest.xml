@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.valuekart.bloodbank">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:name=".BloodBankApp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.bloodBank.BloodBankActivity"></activity>
+        <activity android:name=".ui.donors.DonorsActivity"></activity>
+        <activity android:name=".ui.patients.PatientsActivity"></activity>
+        <activity android:name=".ui.bloodBank.addBloodBank.AddBloodBankActivity"></activity>
+        <activity android:name=".ui.bloodBank.getBloodBank.GetBloodBankActivity"></activity>
+        <activity android:name=".ui.bloodBank.updateBloodBank.UpdateBloodBankActivity"></activity>
+        <activity android:name=".ui.donors.addDonor.AddDonorActivity"></activity>
+        <activity android:name=".ui.donors.getDonor.GetDonorActivity"></activity>
+        <activity android:name=".ui.donors.updateDonor.UpdateDonorActivity"></activity>
+        <activity android:name=".ui.patients.addPatient.AddPatientActivity"></activity>
+        <activity android:name=".ui.patients.getPatient.GetPatientActivity"></activity>
+        <activity android:name=".ui.patients.updatePatient.UpdatePatientActivity"></activity>
+        <activity android:name=".ui.donateBlood.DonateBloodActivity"></activity>
+        <activity android:name=".ui.getBlood.GetBloodActivity"></activity>
+    </application>
+
+</manifest>

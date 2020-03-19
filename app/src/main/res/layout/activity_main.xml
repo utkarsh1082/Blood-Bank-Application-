@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" android:layout_alignParentStart="true" android:layout_marginTop="0dp">
+        <Button
+                android:text="@string/patients"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/patients"
+                android:layout_weight="1" android:textSize="36sp"/>
+        <Button
+                android:text="@string/donors"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/donors"
+                android:layout_weight="1" android:textSize="36sp"
+        />
+        <Button
+                android:text="@string/blood_banks"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bloodBanks"
+                android:layout_weight="1" android:textSize="36sp"
+        />
+        <Button
+                android:text="@string/donate_blood"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/donateBlood"
+                android:layout_weight="1" android:textSize="36sp"
+        />
+        <Button
+                android:text="@string/get_blood"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/getBloodGroup"
+                android:layout_weight="1" android:textSize="36sp"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/individualBloodBanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/serialNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+        />
+
+        <TextView
+                android:id="@+id/bloodBankName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="@+id/guideline7"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintVertical_bias="0.538"
+                android:layout_marginStart="8dp"/>
+
+        <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintStart_toEndOf="@+id/guideline2" android:layout_marginStart="8dp"
+                card_view:layout_constraintEnd_toStartOf="@+id/radioButton" android:layout_marginEnd="8dp"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:layout_constraintGuide_begin="190dp"
+                card_view:layout_constraintTop_toTopOf="parent" card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent" card_view:layout_constraintBottom_toTopOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.464" card_view:layout_constraintVertical_bias="0.0"/>
+
+        <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="@+id/guideline9"
+                card_view:layout_constraintTop_toTopOf="parent"
+        />
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:layout_constraintGuide_begin="54dp"
+                card_view:layout_constraintTop_toTopOf="parent" card_view:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="54dp" android:layout_marginStart="54dp"
+                card_view:layout_constraintBottom_toTopOf="parent"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:layout_constraintGuide_begin="287dp"
+                card_view:layout_constraintEnd_toEndOf="parent" card_view:layout_constraintBottom_toTopOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintStart_toStartOf="@+id/guideline2" android:layout_marginLeft="97dp"
+                android:layout_marginStart="97dp" android:layout_marginEnd="97dp" android:layout_marginRight="97dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
